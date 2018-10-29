@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5bb09575279ce7000b60b4f4"},"header":"Keyword"}
+{"_id":{"$oid":"5bb09575279ce7000b60b4f5"},"header":"Intent"}
+{"_id":{"$oid":"5bb09575279ce7000b60b4f6"},"header":"_creby"}
+{"_id":{"$oid":"5bb09575279ce7000b60b4f7"},"header":"_credate"}
+{"_id":{"$oid":"5bb09575279ce7000b60b4f8"},"header":"_upby"}
+{"_id":{"$oid":"5bb09575279ce7000b60b4f9"},"header":"_update"}

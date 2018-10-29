@@ -11,5 +11,6 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: telenor123
     volumes: 
       - "./data:/data/db"
+      - "./Databases:/Databases"
     ports: 
       - "27017:27017"
