@@ -1,1 +1,0 @@
-{"_id":{"$oid":"5bb1ac826f71b3000ca4cc24"},"conver_name":"DL_checkbalance","data":[["customer","What's your phone number?","string"],["customer","Please enter your OTP (one-time password). We have just sent to the number you specified.","string"]]}
