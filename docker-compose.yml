@@ -11,5 +11,10 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: telenor123
     volumes: 
       - "./data:/data/db"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1k"
+        max-file: "3"
     ports: 
       - "27017:27017"
