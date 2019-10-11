@@ -3,12 +3,12 @@ version: '3.1'
 services:
   mongo:
     image: mongo:3.6
-    container_name: koohoo-mongodb
+    container_name: docker-mongodb
     restart: always
     environment:
-      MONGO_INITDB_DATABASE: koohoo
-      MONGO_INITDB_ROOT_USERNAME: koohoo
-      MONGO_INITDB_ROOT_PASSWORD: telenor123
+      MONGO_INITDB_DATABASE: admin
+      MONGO_INITDB_ROOT_USERNAME: admim
+      MONGO_INITDB_ROOT_PASSWORD: admin
     volumes: 
       - "./data:/data/db"
     logging:
