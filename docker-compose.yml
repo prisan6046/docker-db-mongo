@@ -6,9 +6,8 @@ services:
     container_name: docker-mongodb
     restart: always
     environment:
-      MONGO_INITDB_DATABASE: SmookBlackDB
-      MONGO_INITDB_ROOT_USERNAME: admim
-      MONGO_INITDB_ROOT_PASSWORD: admin
+      - MONGO_INITDB_ROOT_USERNAME=admim
+      - MONGO_INITDB_ROOT_PASSWORD=admin
     volumes: 
       - "./data:/data/db"
     logging:
